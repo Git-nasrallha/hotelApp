@@ -1,0 +1,58 @@
+{
+    "services":[
+        {
+            "id" :1,
+            "image":"/images/services/doctor-1.jpg",
+            "title":"Medical services",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ."
+        },
+        {
+            "id" :2,
+            "image":"/images/services/pooling.jpg",
+            "title":"Jacuzzi",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ."
+        },
+        {
+            "id" :3,
+            "image":"/images/services/integratedservic.jpg",
+            "title":"Integrated service",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ."
+        },
+        {
+            "id" :4,
+            "image":"/images/services/waterplay-1.jpg",
+            "title":"Water Games",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ."
+        },
+        {
+            "id" :5,
+            "image":"/images/services/nightclub.jpg",
+            "title":"Nightlife",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ."
+        },
+        {
+            "id" :6,
+            "image":"/images/services/restaurant09.jpg",
+            "title":"Charcoal restaurants",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ."
+        },
+        {
+            "id" :7,
+            "image":"/images/services/shopping.jpg",
+            "title":"shopping",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ."
+        },
+        {
+            "id" :8,
+            "image":"/images/services/Chefes.jpg",
+            "title":"the best Chefes",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ."
+        },
+        {
+            "id" :9,
+            "image":"/images/services/Gymnasium.jpg",
+            "title":"Gymnasium",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ."
+        }
+    ]
+}
