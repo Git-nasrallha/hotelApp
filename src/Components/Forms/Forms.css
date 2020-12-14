@@ -1,0 +1,64 @@
+
+form .error{
+    text-transform: capitalize;
+    color: #f00;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/*start form contact style */
+
+.contact-form{
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+
+.contact-form form .form-control{
+    margin: 20px 0;
+    border-color: #d3c0a0;
+    text-transform: capitalize;
+}
+.contact-form form textarea{
+    height: 120px;
+}
+.contact-form form button[type="submit"]{
+    font-size: 23px;
+}
+
+/*End form contact style */
+
+/*start bookingfroom style*/
+.bookingfroom{
+   position: relative;
+}
+.bookingfroom form{
+    margin: 20px auto;
+    border: 1px solid #d3c0a0;
+    padding: 20px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    box-shadow: 1px 1px 12px #c4b191;
+
+}
+
+.bookingfroom form .form-control{
+    border-color: #d3c0a0;
+    margin-bottom: 20px;
+}
+.bookingfroom form input[type="radio"]+label{
+    margin:5 10px 0;display: inline;
+}
+.bookingfroom form input,
+.bookingfroom form select
+{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #777;
+}
+
+/*End bookingfroom style*/

@@ -1,0 +1,127 @@
+.about-us{
+    padding: 30px 0;
+}
+.about-us .topheader {
+    margin-bottom: 50px;
+}
+.about-us-content{
+    text-transform: capitalize;
+    color: #242424;
+    margin-bottom: 50px;
+}
+.about-us-content h2{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.about-us-content h2 span{color: #c1a77ab5; font-size:40px}
+.about-us-content p{
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 20px 0;
+}
+
+.about-us-right{
+    position: relative;
+    background: url("/images/about_04.jpg") center no-repeat ;
+    background-size: cover;
+    box-shadow: 0 10px 20px  #dab069;
+    padding: 150px 0;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.about-us-right::before{
+    content:"" ;
+    position: absolute;
+    top: 0; left: 0;
+    display: block;
+    width: 100%; height: 100%;
+    background-color: rgba(2, 2, 2, .5);
+}
+.about-us-right a{
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px 0 #fff;
+    line-height: 50px;
+    text-align: center;
+}
+.about-us-right a::before{
+    content: '';
+    display: block;
+    width: 60px;height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;top: 50%;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-50%);
+    transition: all .3s ease-in-out;
+    background-color:#fff;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+.about-us-right a::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #ccc;
+    border-radius: 50%;
+    -webkit-transition: all 200ms;
+    transition: all 200ms;
+}
+.about-us-right a svg{
+    width: 40px;
+    height: 40px;
+    color: #c1a77ab5;
+}
+
+/*start hotel-staff style*/
+.hotel-staff{
+    padding: 40px 0;
+    background-color: #d0ba9596;
+}
+.hotel-staff .item {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #dab069;
+    border-radius: 0 20px;
+    margin-bottom: 20px;
+}
+.hotel-staff .item .media img{
+    width: 80px; height: 80px;
+    border-radius: 50%;
+}
+
+.hotel-staff .item .media .media-body{
+    text-transform: capitalize;
+    padding: 10px; color: #48443c;
+}
+.hotel-staff .item .media .media-body h5{
+    font-weight: bold;color:#b77b16;
+}
+
+
+/*end hotel-staff style*/
+
+
+.about-us-content .btn-style:hover{color: #242424;}
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
+}

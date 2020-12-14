@@ -1,0 +1,55 @@
+.single-room-page{
+    position: relative;
+}
+.single-room-page .rooms-images{
+    margin: 40px 0;
+}
+.single-room-page .rooms-images .roomImg{
+    border-radius: 10px; margin-bottom: 30px;
+    box-shadow: 5px 5px 5px #3333,
+                -5px -5px 5px #3333;
+}
+.single-room-page .room-info-details{
+    margin:30px 0;
+    padding: 10px;
+    position: relative;
+}
+.single-room-page .room-info-details h3,
+.extras h3
+{
+    text-transform: capitalize;
+    font-size: 24px; margin-bottom: 25px;
+    font-weight: bold;
+    position: relative;
+}
+.single-room-page .room-info-details h3::after,
+.extras h3::after 
+{
+    content: "";
+    display: block;
+    width: 77px;height: 2px;
+    background-color: saddlebrown;
+    position: absolute; left:0 ;
+    margin-top:5px
+}
+.single-room-page .room-info-details .room-details .lead{
+    color:#000;font-weight: normal;
+    font-size: 1.1rem; margin-bottom: 30px;
+}
+.single-room-page .room-info-details .room-info ul li{
+    margin-top: 17px; color: #444; text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.single-room-page .room-info-details .room-info ul li span{letter-spacing: 3px;}
+
+.extras .coll{margin-bottom: 20px;position: relative;}
+.extras li{
+     text-transform: capitalize;
+    list-style-type: none;
+    font-size: 15px;
+    color: #555;position: relative;
+}
+
+.extras li::before{
+    content: "-";
+}

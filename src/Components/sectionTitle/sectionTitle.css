@@ -1,0 +1,21 @@
+.section-header{
+    position: relative;
+    text-align: center;
+    margin:  30px auto;
+    margin-bottom: 40px;
+}
+.section-header h2{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+}
+.section-header h2::after{
+    content: "";
+    display: block;
+    width: 80px; height: 2px;
+    background-color: #c1a77ab5;
+    position: absolute;
+    left: 50%; top: 43px;
+    margin-left: -40px;
+}

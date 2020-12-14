@@ -1,0 +1,23 @@
+.room-content .room-filter{
+    margin-bottom: 150px;
+    padding:20px 0;
+}
+
+.room-content .room-filter form label{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+}
+.room-filter form .custom-range{margin-top: 20px;}
+.room-filter form .size{margin-top: 15px;}
+.room-filter form .size input:first-of-type{margin-right: 5px;}
+.room-filter .extres{margin-top: 25px;}
+.room-content .room-lists .card .feature-room-overlay{
+    min-height: 143px;
+}
+@media(min-width:578px) and (max-width:991px){
+    .room-content .room-filter form .form-control{
+        padding:10px;
+        text-align: center;
+    }
+}

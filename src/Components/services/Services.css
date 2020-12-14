@@ -1,0 +1,59 @@
+.sercives{
+    background-color: #ccc;
+    padding: 40px 0;
+    position: relative;
+}
+
+
+.sercives .services-content .card{
+    border: none; text-align: center;
+    background-color: transparent;
+    transition: all .3s ease-in-out;
+}
+.sercives .services-content .card:hover{
+    box-shadow: 0 6px 30px 0 #b77b16;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.services-content .card svg{
+    width: 50px;
+    height: 30px;
+    margin: auto;
+    margin-top: 10px;
+    color: #c1a77ab5;
+}
+.services-content .card .card-title{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding: 8px; color: #555;
+}
+.services-content .card .card-text{
+    text-transform: capitalize;
+    font-weight: 400; word-spacing: 2px;
+}
+
+/*start service page */
+.service-page{
+    position: relative;
+}
+.service-page .service-content{
+    padding: 30px 0;
+    margin: 20px 0;
+}
+.service-page .service-content .media img{
+    width: 80px;height: 80px;
+    border-radius: 50%;
+}
+.service-page .service-content .media .img-thumbnail{
+    border-color: #c4b191;
+}
+.service-page .service-content .media .media-body{
+    text-transform: capitalize;
+    padding: 10px; color: #c4b191;
+    margin-bottom:30px;
+}
+.service-page .service-content .media .media-body h5{
+    font-weight: bold;color:#b77b16;
+}
+
+/*End service page */

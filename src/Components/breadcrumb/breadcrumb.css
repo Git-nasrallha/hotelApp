@@ -1,0 +1,19 @@
+nav[aria-label="breadcrumb"] {
+    position: absolute;  top: 10px;
+    justify-content: start;
+   box-shadow: none;
+   background: none;
+   z-index:999;
+}
+.breadcrumb{
+    background-color: transparent;
+    color: #242424;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.breadcrumb a{
+    color: #fff;
+}
+.breadcrumb-item.active{
+    color: #000;
+}

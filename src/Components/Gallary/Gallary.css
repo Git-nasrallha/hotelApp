@@ -1,0 +1,30 @@
+.gallary{
+    padding: 20px 0;
+    position: relative;
+}
+.gallary .row{
+    margin-top: 50px;
+}
+.gallary .gallary-img{
+    position: relative;
+    width: 100%;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.gallary .gallary-img img{
+    -webkit-border-radiud:0 20px;
+    -moz-border-radiud:0 20px;
+    -o-border-radiud:0 20px;
+    border-radius: 0 20px;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.gallary .gallary-img img:hover{
+    transform: scale(1.2);
+}
