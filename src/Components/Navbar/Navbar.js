@@ -3,6 +3,7 @@ import "./Navbar.css";
 import {Link,NavLink} from "react-router-dom";
 import {ButtonLink} from "../Buttons/Button";
 import { FaBars,FaTimes} from "react-icons/fa";
+import logo from "../../images/logo.svg";
 
 const NavLinks=({lable,to,className,...rest})=>{
     return <li className={`navbar-item ${className}`}>
@@ -43,7 +44,7 @@ const Navbar = () => {
                 <div className="container d-flex">
                     <button className="toggle-menuo" onClick={HandleToggleMenuo}>{toggleMenuo? <FaTimes/> : <FaBars/> }</button>
                     <div className="logo">
-                        <Link to="/"> <img src="/images/logo.svg" alt="logo"/> </Link>
+                        <Link to="/"> <img src={logo} alt="logo"/> </Link>
                     </div>
                     <ul className={toggleMenuo ? " list-unstyled show-links show-active-links " :" list-unstyled show-links" }>
                 

@@ -27,7 +27,7 @@
 
 .about-us-right{
     position: relative;
-    background: url("/images/about_04.jpg") center no-repeat ;
+    background: url("../../images/about_04.jpg") center no-repeat ;
     background-size: cover;
     box-shadow: 0 10px 20px  #dab069;
     padding: 150px 0;

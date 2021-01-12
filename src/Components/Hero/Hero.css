@@ -4,11 +4,11 @@
     position: relative;
     display: flex;justify-content: center;
     align-items: center;
-    background: url("/images/defaultBcg.jpeg") no-repeat center;
+    background: url("../../images/defaultBcg.jpeg") no-repeat center;
     background-size: cover;
 }
 .room-hero{
-    background: url("/images/room-1.jpeg") no-repeat center;
+    background: url("../../images/room-1.jpeg") no-repeat center;
     background-size: cover;
 }
 @media(max-width:578px){
